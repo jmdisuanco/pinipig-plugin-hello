@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "name": "pinipigHello",
+  "pluginVersion": "0.0.1",
+  "folderName": "hello",
+  "devDependencies": [],
+  "scripts": [],
+  "dependencies": [],
+  "repository": "https://github.com/jmdisuanco/pinipig-plugin-hello",
+  "requiredPlugins": [],
+  "routes": [
+    {
+      "url": "/hello/:name",
+      "GET": "Hello"
+    }
+  ],
+  "model": {}
+}
