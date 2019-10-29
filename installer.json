@@ -8,11 +8,6 @@
   "dependencies": [],
   "repository": "https://github.com/jmdisuanco/pinipig-plugin-hello",
   "requiredPlugins": [],
-  "routes": [
-    {
-      "url": "/hello/:name",
-      "GET": "Hello"
-    }
-  ],
+  "routes": ["hello"],
   "model": {}
 }
